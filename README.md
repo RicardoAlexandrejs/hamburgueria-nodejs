@@ -81,6 +81,12 @@ e clique no botão botão SEND (enviar) para visualizar o pedido pesquisado<br>
 
 ![insomnia-hamburgueria-get-search](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/bd2eed70-e112-46a7-b8b0-88a80a877f2e)
 
+* Para fazer a alteração do STATUS do pedido(order) copie um ID gerado na rota GET e depois acesse a rota de PATCH (end order):<br>
+01 - cole o ID copiado no endereço da rota.<br>
+e clique no botão botão SEND (enviar) o status desse pedido será alterado para PRONTO<br>
+Volte na rota GET e visualize para confirmar a alteração do Status.
+![insomnia-hamburgueria-patch](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/ef2215a0-8447-483c-b301-ab61bff91998)
+
 <hr>
 Obrigado por visualizar até aqui!!!
 
