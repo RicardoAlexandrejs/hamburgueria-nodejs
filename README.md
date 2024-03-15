@@ -72,7 +72,15 @@ e clique no botão botão SEND (enviar) para visualizar o pedido atualizado<br>
 01 - cole o ID copiado no endereço da rota.<br>
 e clique no botão botão SEND (enviar) para deletar o usuário <br>
 02 - volte na rota de GET(users) clique em enviar e confirme se o usuário foi deletado.
-![insomnia-delete](https://github.com/RicardoAlexandrejs/first-project-node/assets/158041416/a40312a6-fb00-4a39-b81f-d4cdebc8f635)
+
+![insomnia-hamburgueria-delete](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/9cf6f2c4-ef19-444a-aed7-f06264f34fc5)
+
+* Para fazer uma busca por pedido (order) copie um ID gerado na rota GET e depois acesse a rota de GET (Search order):<br>
+01 - cole o ID copiado no endereço da rota.<br>
+e clique no botão botão SEND (enviar) para visualizar o pedido pesquisado<br>
+
+![insomnia-hamburgueria-get-search](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/bd2eed70-e112-46a7-b8b0-88a80a877f2e)
+
 <hr>
 Obrigado por visualizar até aqui!!!
 
