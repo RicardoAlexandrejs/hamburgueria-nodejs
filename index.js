@@ -22,6 +22,15 @@ const checkedOrderId = (request, response, next) => {
     next()
 }
 
+// Middleware para mostrar o método e a URL da requisição
+const logRequisicao = (request, response, next) => {
+    console.log(`Método: ${request.method}, URL: ${request.url}`);
+    next();
+};
+
+// Aplicando o middleware de log em todas as requisições
+app.use(logRequisicao);
+
 app.get('/orders', (request, response) => { // rota para exibir todos os pedidos
     return response.json(orders) // exibe todas as informações do banco de dados
 })
