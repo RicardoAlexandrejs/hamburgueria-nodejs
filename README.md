@@ -41,25 +41,32 @@ Essas quatro operações formam a base para a manipulação de dados em sistemas
 <h1>Start / Inicialização 💻</h1>
 ## <h4>Instalação</h4>
 
-* Clone o repositório: `git clone [https://github.com/RicardoAlexandrejs/first-project-node]`
+* Clone o repositório: `git clone [https://github.com/RicardoAlexandrejs/hamburgueria-nodejs]`
 * Ou baixe os arquivos para seu Desktop
-* Acesse o diretório do projeto: `first-project-node`
+* Acesse o diretório do projeto: `hamburgueria-nodejs`
 * Instale as dependências: `npm install`
 * Inicie o servidor: `npm run dev` - Foi inserido um script no package.json para utilizar o nodemon <h6>( O nodemon é um utilitário que monitora as mudanças nos arquivos do seu projeto e reinicia automaticamente o servidor Node. js quando necessário. Assim, você não precisa parar e iniciar o servidor manualmente a cada modificação)</h6>
-* Crie as rotas no insomnia como mostrado abaixo:
-  ![insomnia](https://github.com/RicardoAlexandrejs/first-project-node/assets/158041416/b8c27793-a688-4033-9d53-45965b27eb36)
   <br>
-* Crie alguns usuários na rota de POST (create user): `Alterando o nome e a idade e clique no botão SEND (enviar)`
-![insomnia-post](https://github.com/RicardoAlexandrejs/first-project-node/assets/158041416/8bd8c618-8395-4b40-85d7-b85a87f83245)
+* Crie as rotas no insomnia como mostrado abaixo:
+  
+![insomnia-hamburgueria](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/fdb49ca0-063a-418d-b920-220357a41680)
 
-* Após a criação acesse a rota de GET (users) e clique no botão SEND (enviar) para visualizar os usuários criados:
-  ![insomnia-get](https://github.com/RicardoAlexandrejs/first-project-node/assets/158041416/b9228305-7191-4014-bb70-37c961add96b)
+  <br>
+* Crie alguns pedidos na rota de POST (create order): `Alterando os valores e clique no botão SEND (enviar)`
 
-* Para atualizar alguma informação copie um ID gerado na rota GET e depois acesse a rota de PUT (update):<br>
+![insomnia-hamburgueria-post](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/e4f11340-508a-40aa-9f69-377bc16ffb9b)
+
+
+* Após a criação acesse a rota de GET (order) e clique no botão SEND (enviar) para visualizar os pedidos criados:
+![insomnia-hamburgueria-get](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/99312810-7bb6-4604-bace-c14cf2194a1e)
+
+
+* Para atualizar alguma informação copie um ID gerado na rota GET e depois acesse a rota de PUT (update order):<br>
 01 - cole o ID copiado no endereço da rota.<br>
 02 - Digita as novas informações para atualizar<br>
-e clique no botão botão SEND (enviar) para visualizar o usuário atualizado<br>
-![insomnia-put](https://github.com/RicardoAlexandrejs/first-project-node/assets/158041416/6ecbcc03-06ac-4c36-bf98-d2096348266a)
+e clique no botão botão SEND (enviar) para visualizar o pedido atualizado<br>
+
+![insomnia-hamburgueria-update](https://github.com/RicardoAlexandrejs/hamburgueria-nodejs/assets/158041416/a2a57eae-4ded-45a0-aec9-18ffd2d12510)
 
 * Para Deletar alguma informação copie um ID gerado na rota GET e depois acesse a rota de DEL(delete):<br>
 01 - cole o ID copiado no endereço da rota.<br>
